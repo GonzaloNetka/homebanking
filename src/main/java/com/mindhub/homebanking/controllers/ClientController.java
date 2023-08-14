@@ -17,7 +17,6 @@ public class ClientController {
     @Autowired
     private ClientRepository clientRepository;
 
-
     //SERVLET
     @RequestMapping("/clients")
     public List<ClientDTO> getClients(){
